@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Link Bootstrap CSS -->
+ 
+  <link rel="stylesheet" href="styles.css">
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the dropdown menu element
+            var dropdownMenu = document.getElementById("alumniDropdownMenu");
+
+            // Show the dropdown menu on hover
+            document.getElementById("alumniLink").addEventListener("mouseover", function() {
+                dropdownMenu.style.display = "block";
+            });
+
+            // Hide the dropdown menu when not hovering over the "Alumni" link
+            document.getElementById("alumniLink").addEventListener("mouseout", function() {
+                dropdownMenu.style.display = "none";
+            });
+        });
+    </script>
+     <style>
+        .scrolling-text {
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+  <!-- Header with Navigation Menu -->
+  <header class="link">
+  <nav class="navbar navbar-expand-md bg-primary fixed-top">
+    <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+  
+    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+    <li class="nav-item"><a class="nav-link" href="programs.html">Academic Programs</a></li>
+    <li class="nav-item"><a class="nav-link" href="admission.html">Admissions</a></li>
+    <li class="nav-item"><a class="nav-link" href="campus.html">Campus Life</a></li>
+    <li class="nav-item"><a class="nav-link" href="faculty.html">Faculty & Staff</a></li>
+    <li class="nav-item"><a class="nav-link" href="research.html">Research & Innovation</a></li>
+    <li class="nav-item"><a class="nav-link" href="news.html">News & Events</a></li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="alumniDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alumina</a>
+        <div class="dropdown-menu" aria-labelledby="alumniDropdown">
+            <a class="dropdown-item" href="year_gr_90.html">1990 Group</a>
+            <a class="dropdown-item" href="year_gp_00.html">2000 Year Group</a>
+            <a class="dropdown-item" href="year_gp_20.html">2020 Year Group</a>
+            <a class="dropdown-item" href="year_gp_21.html">2021 Year Group</a>
+        </div>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+    <!-- Add logo image -->
+</ul>
+ <nav>
+<div>
+<ul>
+    <li class="nav-item"><a class="nav-link" href="signin.html">Login </a></li>
+    <li class="nav-item"><a class="nav-link" href="signin.html">Sign Up</a></li>
+</ul>
+</div>
+</nav>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main style="background-color:  rgb(235, 236, 236);">
+       <!-- About Section -->
+    <section id="about" class="py-5">
+        <br><br>
+     <div class="container">
+        <h2>Latest News and Updates</h2>
+        <p>Welcome to the "News" section of AB Science And Technology University. Here, you will find the latest updates,
+            announcements, and stories about our university, faculty, students, and alumni.</p>
+        <h3>University Events and Achievements</h3>
+        <p>We take great pride in celebrating our university's achievements and milestones. From research breakthroughs
+            to campus initiatives, you'll find news articles showcasing the dedication and innovation of our faculty and
+            students.</p>
+        <p>Stay informed about upcoming events, lectures, workshops, and cultural activities hosted by various
+            departments and organizations on campus. Our events calendar is regularly updated to keep you engaged and
+            connected.</p>
+        <h3 >Student Spotlights and Success Stories</h3>
+        <p>Our students are the heart and soul of AB Science And Technology University. We highlight the accomplishments
+            of our exceptional students through inspiring success stories. From academic achievements to leadership
+            roles and community service, our students are making a positive impact on campus and beyond.</p>
+        <p>Learn about the diverse experiences and contributions of our student community, and get inspired by their
+            journey to success.</p>
+        <h3 class="display-4 scrolling-text">Alumni News</h3>
+        <p>Our alumni are an integral part of the AB Science And Technology University family. We feature news articles
+            and updates on the accomplishments of our alumni in their careers and communities.</p>
+        <p>Discover how our graduates are making significant contributions in various industries, pursuing further
+            education, and giving back to society.</p>
+        <h3>Community Engagement and Outreach</h3>
+        <p>We believe in the power of community engagement to drive positive change. Read about our university's efforts
+            to collaborate with local communities, support social causes, and contribute to the well-being of the
+            society.</p>
+        <p>Stay informed about our outreach programs, volunteer opportunities, and initiatives aimed at making a
+            difference.</p>
+        <p>Stay connected with AB Science And Technology University by visiting this page regularly to catch up on the
+            latest news and stories that reflect the spirit and achievements of our university community.</p>
+    </div>
+    </section>
+
+     <!-- Add more sections here -->
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            
+       
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+        
+        <br><br>
+            <h1>Welcome to AB Science and Technology University</h1>
+            <img src="images/acad_1.jpg" class="d-block w-100" width="600px" height="800px" alt="...">
+            </div>
+            
+            <div class="carousel-item">
+        <br><br>
+                <h1>Welcome to AB Science and Technology University</h1>
+            <img src="images/book5.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+                
+        </div>
+            <div class="carousel-item">
+            <br><br>
+                <h1>Welcome to AB Science and Technology University</h1>
+            <img src="images/books.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+            </div>
+              <div class="carousel-item">
+            <br><br>
+                <h1>Welcome to AB Science and Technology University</h1>
+              <img src="images/books6.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+            </div>
+              <div class="carousel-item">
+            <br><br>
+                <h1>Welcome to AB Science and Technology University</h1>
+              <img src="images/home_4.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+            </div>
+              <div class="carousel-item">
+            <br><br>
+                <h1>Welcome to AB Science and Technology University</h1>
+              <img src="images/home_4.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+            </div>
+              <div class="carousel-item">
+            <br><br>
+                <h1>Welcome to AB Science and Technology University</h1>
+              <img src="images/home_1.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+</div>
+  </main>
+  
+  <footer>
+   <section>
+    <div class="row-1">
+     <div >
+      <p>INFORMATION</p>
+      <a href="accessibity.html">Accessibility</a><br>
+      <a href="annual_security.html">Annual Security Reports</a><br>
+      <a href="emergency_information.html">Emergency Information</a><br>
+      <a href="for_our_alumina.html">For Our Alumina</a><br>
+      <a href="media.html">For the Media</a><br>
+      <a href="Health_service.html">Health Services</a><br>
+      <a href="jobs_employment.html">Jobs & Employment</a><br>
+      <a href="privacy_statement.html">Privacy Statements</a><br>
+      <a href="website_feed_back.html">Website Feedback</a>
+     </div>
+
+   <div>
+    <p>MAILING ADDRESS</p>
+    <p>P.O. Box 1234</p>
+     <p>AB Sci&Tech Gh 1234</p>  
+     <p>STREET ADDRESS</p> 
+      <p>800 E.Summit</p>
+     <p>CONTACT US</p>
+     <p>+233-192-838-819</p>
+     <p>Contact Us: contact@abstuniv.edu</p>     
+   </div>
+ <div>
+      <p>Our Social Media</p>
+      <a href="https://www.facebook.com">Facebook</a>
+      <br>
+      <a href="https://www.twitter.html">Twitter</a>
+      <br>
+      <a href="https://www.youtube.com">Youtube</a>
+      <br>
+      <a href="https://www.snapchat.com">Snapchat</a>
+      <br>
+      <a href="https://www.tiktok.com">Tiktok</a>
+      <br>
+      <a href="https://www.github.com">Github</a>
+      <br>
+      <a href="https://www.penterest.com">Pinterest</a>
+      </div>
+     </div>
+    </section>
+        <p>&copy; 2023 AB Science And Technology University. All rights reserved.</p>
+        <p>Contact Us: contact@abstuniv.edu</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <!-- Link Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
